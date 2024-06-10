@@ -10,11 +10,15 @@ def load_json(file_name, encoding='utf-8'):
 
 
 def true_date(dict_):
-    """Обработка строки с датой"""
+    """Обработка строки с датой и вывод даты с описанием перевода"""
     date = dict_["date"]
     list_ = re.split("[T-]", date)
-    result = ".".join(list_[2::-1])
+    result = ".".join(list_[2::-1]) + " " + dict_["description"]
     return result
+
+def from_to(dict_):
+    """Обработка данных счета отправителя и получатея"""
+    pass
 
 
 # def reversed_executed_data(data):
