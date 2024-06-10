@@ -16,11 +16,26 @@ def true_date(dict_):
     result = ".".join(list_[2::-1]) + " " + dict_["description"]
     return result
 
-def from_to(dict_):
-    """Обработка данных счета отправителя и получатея"""
-    pass
 
-
-# def reversed_executed_data(data):
-#     """Обработка данных клиента в обратном порядке и получение словаря с успешными операциями"""
-#     pass
+def card_and_bank_account(dict_):
+    """Обработка данных карты и счета"""
+    if dict_.get("from") == None:
+        from_ = "Данные отправителя не определены"
+        to = dict_["to"][:-5:-1] + "**"
+        data = f"{from_} -> {to[::-1]}"
+        return data
+    else:
+        from_ = dict_["from"]
+        for num in from_:
+            result = ""
+            element = 1
+            if element % 4 == 0:
+                result += " "
+            if 7 <= element <= 12:
+                result += "*"
+            else:
+                result += num
+            element += 1
+        to = dict_["to"][:-5:-1] + "**"
+        data = f"{result} -> {to[::-1]}"
+        return data
