@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02f059ed-6371-4945-90b2-484010663e72" name="Changes" comment="Добавил файл .gitignore (прописал исключения) и README.md (заголовок проекта)">
-      <change afterPath="$PROJECT_DIR$/src/functions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
+    <list default="true" id="02f059ed-6371-4945-90b2-484010663e72" name="Changes" comment="Реализован алгоритм вывода 5 последних операций пользователя">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +54,8 @@
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "develop",
-    "last_opened_file_path": "C:/PycharmProjects/hw_students"
+    "last_opened_file_path": "C:/PycharmProjects/hw_students",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
 }]]></component>
   <component name="RunManager" selected="Python.main">
@@ -143,7 +142,79 @@
       <option name="project" value="LOCAL" />
       <updated>1716727516509</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Добавил функцию загрузки из файла данных в формате json">
+      <option name="closed" value="true" />
+      <created>1716915742761</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1716915742761</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Рабочая версия кода вывода  части содержимого json файла">
+      <option name="closed" value="true" />
+      <created>1716916121749</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1716916121749</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Функция вывода даты в требуемом формате">
+      <option name="closed" value="true" />
+      <created>1717437511371</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1717437511371</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Функция вывода даты в требуемом формате и описание перевода">
+      <option name="closed" value="true" />
+      <created>1718036651143</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1718036651143</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Попытка реализации обработки данных карты и счета">
+      <option name="closed" value="true" />
+      <created>1718039644659</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1718039644659</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Функция обработки данных карты и счета в требуемом формате">
+      <option name="closed" value="true" />
+      <created>1718298219061</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1718298219061</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Добавление вывода слова &quot;Счет&quot; при отсутствии графы &quot;from&quot; в данных переводов">
+      <option name="closed" value="true" />
+      <created>1718298380485</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1718298380485</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Добавление функции обработки денежной информации">
+      <option name="closed" value="true" />
+      <created>1718299835947</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1718299835947</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Реализован алгоритм вывода 5 последних операций пользователя">
+      <option name="closed" value="true" />
+      <created>1718299875131</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1718299875131</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -172,6 +243,15 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init commit" />
     <MESSAGE value="Добавил файл .gitignore (прописал исключения) и README.md (заголовок проекта)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавил файл .gitignore (прописал исключения) и README.md (заголовок проекта)" />
+    <MESSAGE value="Добавил функцию загрузки из файла данных в формате json" />
+    <MESSAGE value="Рабочая версия кода вывода  части содержимого json файла" />
+    <MESSAGE value="Функция вывода даты в требуемом формате" />
+    <MESSAGE value="Функция вывода даты в требуемом формате и описание перевода" />
+    <MESSAGE value="Попытка реализации обработки данных карты и счета" />
+    <MESSAGE value="Функция обработки данных карты и счета в требуемом формате" />
+    <MESSAGE value="Добавление вывода слова &quot;Счет&quot; при отсутствии графы &quot;from&quot; в данных переводов" />
+    <MESSAGE value="Добавление функции обработки денежной информации" />
+    <MESSAGE value="Реализован алгоритм вывода 5 последних операций пользователя" />
+    <option name="LAST_COMMIT_MESSAGE" value="Реализован алгоритм вывода 5 последних операций пользователя" />
   </component>
 </project>
