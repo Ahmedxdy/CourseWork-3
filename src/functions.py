@@ -22,7 +22,8 @@ def card_and_bank_account(dict_):
     if dict_.get("from") == None:
         from_ = "Данные отправителя не определены"
         to = dict_["to"][:-5:-1] + "**"
-        data = f"{from_} -> {to[::-1]}"
+        name_to = dict_["to"].split()[0]
+        data = f"{from_} -> {name_to} {to[::-1]}"
         return data
     else:
         from_ = dict_["from"].split()
