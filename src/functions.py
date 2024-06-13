@@ -25,17 +25,11 @@ def card_and_bank_account(dict_):
         data = f"{from_} -> {to[::-1]}"
         return data
     else:
-        from_ = dict_["from"]
-        for num in from_:
-            result = ""
-            element = 1
-            if element % 4 == 0:
-                result += " "
-            if 7 <= element <= 12:
-                result += "*"
-            else:
-                result += num
-            element += 1
+        from_ = dict_["from"].split()
+        name_card = from_[0]
+        number_card = from_[1][:6] + "******" + from_[1][-4:]
+        number_card_true = ' '.join(number_card[i*4:(i+1)*4] for i in range(4))
         to = dict_["to"][:-5:-1] + "**"
-        data = f"{result} -> {to[::-1]}"
+        name_to = dict_["to"].split()[0]
+        data = f"{name_card} {number_card_true} -> {name_to} {to[::-1]}"
         return data
